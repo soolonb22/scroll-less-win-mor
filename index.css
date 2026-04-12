@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background: #FFF9F5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar — thin and pastel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #fff3eb;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFD3B6;
+  border-radius: 3px;
+}
+
+/* Smooth page transitions */
+#root {
+  min-height: 100vh;
+}
