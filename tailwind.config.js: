@@ -1,0 +1,27 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        sage: {
+          dark: '#1F2C25',
+          medium: '#2A3F35',
+        },
+        terracotta: '#B86F4E',
+        cream: '#F8F5F0',
+        charcoal: '#1A1A1A',
+        teal: '#4A7A7A',
+        beige: '#EDE4D9',
+      },
+      fontFamily: {
+        heading: ['Satoshi', 'system-ui', 'sans-serif'],
+        body: ['Inter', 'system-ui', 'sans-serif'],
+      }
+    },
+  },
+  plugins: [],
+}
